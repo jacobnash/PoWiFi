@@ -1,10 +1,10 @@
-PowWifi.o: PowWifi.c
-	gcc -Wall -Werror std=c99 PowWifi.c -o PowWifi.o
+PowWifi.o: PowWiFi.c
+	gcc -Wall -Werror PowWiFi.c -o PowWiFi.o
 
-run: PowWifi.o
-	./PowWifi.o &
+run: PowWiFi.o
+	./PowWiFi.o &
 
 
 
 clean: 
-	rm -rf PowWifi.o
+	rm -rf PowWiFi.o
